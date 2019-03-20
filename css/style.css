@@ -1,0 +1,2913 @@
+body{
+    background: url("../images/background_eudoxus.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.myNavbarDropdownInfo .dropdown-item:hover{
+    background-color: #969e9b !important;
+    border-color:#343940 !important;
+}
+
+.user-info {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.title-area h5 {
+    font-size: 25px !important;
+    margin-top: 10px;
+}
+
+span.my-svg-text {
+    position: relative;
+    top: -10px;
+    margin-left: 0px;
+}
+
+.input-group-addon{
+    background-color: #e9ecef;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    width: 30px;
+    margin-left: -1px;
+}
+
+.my-calendar{
+    cursor: pointer;
+}
+
+.input-group-addon a{
+    color: black !important;
+}
+
+.input-group-addon .fa-eye-slash:before{
+    font-size: 18px !important;
+    position: relative;
+    top:4px;
+    left: 4px ;
+}
+
+.input-group-addon .fa-eye:before{
+    font-size: 18px !important;
+    position: relative;
+    top:4px;
+    left: 4px ;
+}
+
+.login-popup i.fa.fa-eye-slash {
+    top: 3px;
+    position: relative;
+}
+
+.login-popup i.fa.fa-eye {
+    top: 3px;
+    position: relative;
+}
+
+.my-question-popover:hover{
+    color: red;
+}
+
+.my-nav-bar{
+    padding-bottom: 90px;
+    font-size: 17px;
+}
+
+.my-nav-bar .navbar{
+    min-width: 1300px;
+}
+
+.my-navbar-main-list{
+    margin-left: 0;
+}
+
+.my-nav-bar .navbar-brand{
+    margin-right:10px;
+}
+
+.my-search-bar{
+    margin-left: 30px;
+}
+
+.form-control.my-search-area:focus{
+    border-color: #fff;
+    box-shadow: none;
+}
+
+.my-login .label{
+    margin-top: 15px;
+}
+
+.my-login .btn{
+    box-shadow: 3px 3px #636971;
+    background-color: #e9e9e9 ;
+    border-color: #343940;
+}
+
+.my-login a.btn{
+    color: #010202;
+}
+
+.my-signup .btn{
+    box-shadow: 3px 3px #636971;
+    background-color: #e9e9e9 ;
+    border-color: #343940;
+}
+
+.my-signup a.btn{
+    color: #010202;
+}
+
+.my-login .btn:hover{
+    background: #b1adad !important;
+}
+
+.my-login a.btn:hover{
+    color: #eeeeee !important;
+}
+
+.my-signup .btn:hover{
+    background: #b1adad !important;
+}
+
+.my-signup a.btn:hover{
+    color: #eeeeee !important;
+}
+
+.my-search-button{
+    margin-left: 4px;
+    color: #797a7b !important;
+    border-color: #acb0b5 !important;
+    background-color: #ffffff;
+}
+
+/*.my-search-button:focus{
+    border-color: #fff;
+    box-shadow: none !important;
+}
+
+.my-search-button:hover {
+    background-color: #dee2e6 !important;
+    color:black !important;
+}*/
+
+.my-search-button.btn:hover {
+    background-color: #7e8080 !important;
+    color:black !important;
+    border: 1px solid #999a9a !important;
+    border-color: #999a9a !important;
+    box-shadow: 1px 1px #999a9a;
+}
+
+.my-search-button.btn:focus{
+/*     border-color: #fff;
+    box-shadow: none !important; */
+    background-color: #7e8080 !important;
+    color:black !important;
+    border: 1px solid #999a9a !important;
+    border-color: #999a9a !important;
+    box-shadow: 1px 1px #999a9a;
+}
+
+.my-signup .btn:focus{
+    border-color: #fff;
+    box-shadow: none !important;
+}
+
+.my-login .btn:focus{
+    border-color: #fff;
+    box-shadow: none !important;
+}
+
+.my-label-email{
+    margin-top: 10px;
+}
+
+.my-label-email .fa.fa-envelope{
+    font-size: 16px;
+}
+
+.my-label-password{
+    margin-top: 10px;
+}
+
+.my-password-input{
+    margin-bottom: 10px;
+}
+
+.my-password-remember {
+    margin-left: 55px;
+}
+
+.my-label-password .fa.fa-lock{
+    font-size: 16px;
+}
+
+.my-label-stay-login {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.below-nav-bar {
+    min-width: 1300px;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: fit-content;
+    grid-template-areas:
+        "my-breadcrumb . login-area";
+}
+
+.my-logout{
+    padding-left: 30px;
+}
+
+.my-breadcrumb{
+    margin-left: auto;
+    min-width: 300px;
+    grid-area: my-breadcrumb;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    background: #d8d5d5;
+}
+
+.my-breadcrumb .breadcrumb{
+    background-color: #fff !important;
+    background: none !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+}
+
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 16px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "\003e";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+.login-area{
+    margin-right: auto;
+    margin-left: 70px;
+    display: flex;
+}
+
+.login-area.loggedin-user{
+    margin-right: auto;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    background: #e9e9e9;
+    padding: 10px;
+}
+
+.my-hide{
+    display: none;
+}
+
+.my-signup{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.my-signup a{
+    color: black;
+    text-decoration: none;
+}
+
+.my-signup a:hover {
+    color: black !important;
+    text-decoration: none;
+}
+
+.my-submit{
+    margin-top: 10px;
+    margin-left: 75px;
+}
+.my-login{
+
+}
+
+.my-login a{
+    color: black;
+    text-decoration: none;
+}
+
+.my-login a:hover {
+    color: black !important;
+    text-decoration: none;
+}
+
+.placeholder{
+    height: 900px;
+}
+
+.form-control {width:120px;}
+.popover {max-width:400px;}
+
+.btn-group-vertical button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 100%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+
+.main-content{
+    flex-direction: row;
+    justify-content: center;
+    min-width: 1200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    grid-column-gap: 50px;
+}
+
+.student-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fb9c9c;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    height: 450px;
+}
+
+.title-area{
+    border-bottom: 1px solid #0e0e0e;
+}
+
+.button-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.section-button{
+    border: 0;
+    color: #212529;
+    background-color: #fff;
+    box-shadow: 5px 5px #888888;
+    width: 240px;
+    height: 75px;
+    margin-top: 20px;
+}
+
+.student-area .section-button.btn:hover{
+    background-color: #d03f40;
+    border-color:#ea7a91;
+    border:1px solid #ea7a91;
+}
+
+.student-area .section-button.btn{
+    background-color: #ff5b5b;
+}
+
+.secretary-area a.section-button{
+
+}
+
+.publisher-area a.section-button{
+}
+
+.library-area a.section-button{
+}
+
+a.section-button{
+    font-size: 18px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.section-button:hover{
+    color: black !important;
+}
+
+.section-button:hover{
+    background-color: yellow;
+}
+
+.section-button:focus{
+    margin-top:20px;
+    border-color: #fff !important;
+    box-shadow: none !important;
+}
+
+.secretary-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b6dcef;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    height: 450px;
+}
+
+.secretary-area .section-button.btn:hover{
+    background-color: #7babc3;
+    border-color:#76afcc;
+    border:1px solid #76afcc;
+}
+
+.secretary-area .section-button.btn{
+    background-color: #86c7e8;
+}
+
+.publisher-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #58e879;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    height: 450px;
+}
+
+.publisher-area .section-button.btn:hover{
+    background-color: #49b361;
+    border-color:#368447;
+    border:1px solid #368447;
+}
+
+.publisher-area .section-button.btn{
+    background-color: #13c73c;
+}
+
+.library-area{
+    background-color: #efe78f;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.library-area .section-button.btn:hover{
+    background-color: #b7ac26;
+    border-color:#948b20;
+    border:1px solid #948b20;
+}
+
+.library-area .section-button.btn{
+    background-color: #d6c82c;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    margin-top: -50px;
+    padding-top: 10px;
+    float: left;
+}
+
+/* Registration_form css */
+.my-main-content-registration{
+    min-width: 1100px;
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-reg-account-info{
+    background-color: #ddd;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+
+    margin-bottom: 30px;
+    width: 600px;
+}
+
+.my-reg-account-info h{
+    border-bottom: 1px solid #0e0e0e;
+}
+
+.my-reg-account-info .form-group{
+    margin-top: 10px;
+}
+
+.my-reg-personal-info{
+    background-color: #ddd;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+
+    margin-bottom: 30px;
+    width: 600px;
+}
+
+.my-reg-personal-info h{
+    border-bottom: 1px solid #0e0e0e;
+}
+
+.my-reg-personal-info .form-group{
+    margin-top: 10px;
+}
+
+.my-reg-law-info{
+    background-color: #ddd;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+
+    margin-bottom: 30px;
+    width: 600px;
+}
+
+.my-reg-law-info h{
+    border-bottom: 1px solid #0e0e0e;
+}
+
+.my-reg-law-info .form-group{
+    margin-top: 10px;
+}
+
+.my-university-info{
+    background-color: #ddd;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+
+    margin-bottom: 30px;
+    width: 600px;
+}
+
+.my-university-info h{
+    border-bottom: 1px solid #0e0e0e;
+}
+
+.my-university-info .form-group{
+    margin-top: 10px;
+}
+
+.my-reg-contact-info{
+    background-color: #ddd;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+
+    margin-bottom: 30px;
+    width: 600px;
+}
+
+.my-reg-contact-info h{
+    border-bottom: 1px solid #0e0e0e;
+}
+
+.my-reg-contact-info .form-group{
+    margin-top: 10px;
+}
+
+.my-req-star{
+    color: red;
+}
+
+.my-registration-submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-registration-submit .btn:disabled {
+    color: #fff;
+    background-color: #aaa;
+    border-color: #aaa;
+}
+
+.error-msg {
+    margin-top: -15px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+form.my-registration-from {
+    margin-bottom: 100px;
+}
+
+.success-registration{
+    color: green;
+}
+
+.error-msg-login {
+    margin-top: 3px;
+    color: red;
+}
+
+.groups-option-registration{
+    margin-top: 50px;
+    padding-left: 500px;
+    padding-right: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-row-gap: 100px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.student-reg-opt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.student-reg-opt .btn{
+    box-shadow: 5px 5px #545b62;
+    background-color: #ff5b5b !important;
+    border-color: #ff5b5b !important;
+    width: 270px;
+    height: 270px;
+    padding-top: 70px;
+}
+
+.student-reg-opt a{
+    font-size: 25px;
+    color: black;
+}
+
+.student-reg-opt a:hover{
+    color: black;
+}
+
+.student-reg-opt .btn:hover{
+    box-shadow: 5px 5px #545b62 !important;
+    background-color: #d03f40 !important;
+    border-color: #bf0808 !important;
+}
+
+.student-reg-opt .btn:focus{
+    /*border-color: #fff !important;*/
+    box-shadow: none !important;
+}
+
+.secret-reg-opt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secret-reg-opt .btn{
+    box-shadow: 5px 5px #545b62;
+    background-color: #b0dbed !important;
+    border-color: #b0dbed !important;
+    width: 270px;
+    height: 270px;
+    padding-top: 70px;
+}
+
+.secret-reg-opt a{
+    font-size: 25px;
+    color: black;
+}
+
+.secret-reg-opt a:hover{
+    color: black;
+}
+
+.secret-reg-opt .btn:hover{
+    box-shadow: 5px 5px #545b62 !important;
+    background-color: #7bc6e5 !important;
+    border-color: #7bc6e5 !important;
+}
+
+.secret-reg-opt .btn:focus{
+    /*border-color: #fff !important;*/
+    box-shadow: none !important;
+}
+
+.publisher-reg-opt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.publisher-reg-opt .btn{
+    box-shadow: 5px 5px #545b62;
+    background-color: #3ce77f !important;
+    border-color: #3ce77f !important;
+    width: 270px;
+    height: 270px;
+    padding-top: 70px;
+}
+
+.publisher-reg-opt a{
+    font-size: 25px;
+    color: black;
+}
+
+.publisher-reg-opt a:hover{
+    color: black;
+}
+
+.publisher-reg-opt .btn:hover{
+    box-shadow: 5px 5px #545b62 !important;
+    background-color: #00c54a !important;
+    border-color: #00c54a !important;
+}
+
+.publisher-reg-opt .btn:focus{
+    /*border-color: #fff !important;*/
+    box-shadow: none !important;
+}
+
+.library-reg-opt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.library-reg-opt .btn{
+    box-shadow: 5px 5px #545b62;
+    background-color: #f1e694 !important;
+    border-color: #f1e694 !important;
+    width: 270px;
+    height: 270px;
+    padding-top: 70px;
+
+}
+
+.library-reg-opt a{
+    font-size: 25px;
+    color: black;
+}
+
+.library-reg-opt a:hover{
+    color: black;
+}
+
+.library-reg-opt .btn:hover{
+    box-shadow: 5px 5px #545b62 !important;
+    background-color: #d8c644 !important;
+    border-color: #d8c644 !important;
+}
+
+.library-reg-opt .btn:focus{
+    /*border-color: #fff !important;*/
+    box-shadow: none !important;
+}
+
+.strongPass{
+    color: green;
+}
+
+.mediumPass{
+    color: orange;
+}
+
+.weakPass{
+    color: #dc3545;
+}
+
+#myBirthDate-reg .fa-calendar:before {
+    content: "\f073";
+    position: relative;
+    left: 6px;
+    top: 6px;
+}
+
+.datepicker {
+    top: 657px !important;
+    left: 877.328px !important;;
+}
+
+.search-container.myBooksSearch {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+input.MySearchBookSearchBox {
+    width: 1000px;
+    height: 60px;
+    font-size: 25px;
+    padding-left: 10px;
+    border: 1px solid #676666;
+    border-radius: 15px;
+}
+
+input.MySearchBookSearchBox:focus {
+    outline: none !important;
+    box-shadow: none;
+    border: 1px solid #2104ff;
+}
+
+button.MySearchBookSearchButton {
+    color: #212529;
+    background-color: #343940 !important;
+    border-color: #343940 !important;
+    width: 75px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button.MySearchBookSearchButton:hover .fa.fa-search{
+    color: #fffff3 !important;
+}
+
+button.MySearchBookSearchButton:focus{
+    outline: none !important;
+    box-shadow: none;
+}
+
+button.MySearchBookSearchButton .fa.fa-search {
+    font-size: 35px;
+    color: #a8acad !important;
+}
+
+.mySearchBookResultsCount {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    word-spacing: 5px;
+    margin-top: 15px;
+}
+
+span.mySearchBookCounter {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.mySearchBookOneResult {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    margin-top: 20px;
+    background: #dddddd;
+    grid-template-columns: 250px 1fr;
+    display: grid;
+    grid-template-areas:
+        "book-image book-title"
+        "book-image book-authors"
+        "book-image book-publisher"
+        "book-image book-isbn"
+        "book-comments book-page";
+    padding: 30px;
+    border: 1px solid #212529;
+    border-radius: 8px;
+    box-shadow: 4px 3px #999;
+}
+
+.book-image {
+    grid-area: book-image;
+}
+
+.book-title {
+    grid-area: book-title;
+    font-size: 25px;
+}
+
+.book-authors {
+    grid-area: book-authors;
+    font-size: 18px;
+}
+
+.book-publisher {
+    grid-area: book-publisher;
+    font-size: 18px;
+}
+
+.book-isbn {
+    grid-area: book-isbn;
+    font-size: 18px;
+}
+
+.book-comments {
+    grid-area: book-comments;
+    margin-top: 25px;
+}
+
+.book-page {
+    grid-area: book-page;
+    justify-self: right;
+    margin-top: 25px;
+}
+
+.endOfResultsPlaceHolder {
+    height: 300px;
+    margin-bottom: 350px;
+}
+
+.myBooksSearchFiltersButton {
+    width: 1075px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myBooksSearchFiltersButton .btn{
+    border: 0;
+    color: #212529;
+    box-shadow: 4px 4px #9fa1a2;
+    background-color: #343940 !important;
+    border-color: #343940 !important;
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.myBooksSearchFiltersButton .btn:hover{
+
+}
+
+.myBooksSearchFiltersButton a{
+    font-size: 16px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a8acad !important;
+}
+
+.myBooksSearchFiltersButton a:hover{
+    color: #fffff3 !important;
+}
+
+.myBooksSearchFiltersButton .btn:focus{
+    margin-top:20px;
+    border-color: #fff !important;
+    box-shadow: none !important;
+}
+
+#filterButtonIcon {
+    font-size: 35px;
+    position: relative;
+    left: 30px;
+}
+
+.openFilters .btn {
+    background: #8e8d8d;
+}
+
+.myHiddenClass{
+    display: none;
+}
+
+.myBooksSearchFiltersInput {
+    background-color: #ddd;
+    padding: 25px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 30px;
+    width: 1075px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.myBooksSearchFiltersInput .form-group.row {
+    margin-bottom: 20px;
+}
+
+.myBooksSearchFiltersInput .col-form-label{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.myBooksSearchFiltersInput .form-control{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#myFilterApplyButton.btn{
+    border: 0;
+    color: #212529;
+    background-color: #f8f9fa;
+    box-shadow: 5px 5px #888888;
+    width: 200px;
+    height: 65px;
+    margin-top: 20px;
+}
+
+#myFilterApplyButton.btn:hover{
+    background-color: #999;
+}
+
+a#myFilterApplyButton{
+    font-size: 18px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a#myFilterApplyButton:hover{
+    color: black !important;
+}
+
+#myFilterApplyButton.btn:focus{
+    margin-top:20px;
+    border-color: #fff !important;
+    box-shadow: none !important;
+}
+
+.my-calendar .form-control {
+    background: white !important;
+}
+
+.my-profile-info .my-reg-contact-info {
+    margin-bottom: 80px;
+}
+
+.my-profile-info .fa.fa-pencil-alt{
+    cursor: pointer;
+}
+
+.my-profile-info .fa.fa-check{
+    cursor: pointer;
+}
+
+.back-to-reg-options {
+    width: 400px;
+    position: relative;
+    left: 345px;
+}
+
+.back-to-reg-options .btn{
+    box-shadow: 4px 4px #9fa1a2;
+    background-color: #343940 !important;
+    border-color: #343940 !important;
+}
+
+.back-to-reg-options a.btn{
+    color: #a8acad;
+    text-decoration: none;
+}
+
+.back-to-reg-options a.btn:hover{
+    color: #fffff3;
+}
+
+.student-app-content {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 320px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+    display: grid;
+    grid-template-areas:
+        "new-dilosi-button edit-current-button current-dilosi"
+        "exchange-button history-button current-dilosi"
+        "remaining-books remaining-books remaining-books";
+}
+
+.new-dilosi-button {
+    grid-area: new-dilosi-button;
+}
+
+.edit-current-button {
+    grid-area: edit-current-button;
+}
+
+.current-dilosi {
+    grid-area: current-dilosi;
+    border: 2px solid #343940;
+    background: #f36666;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.exchange-button {
+    grid-area: exchange-button;
+}
+
+.history-button{
+    grid-area: history-button;
+}
+
+.remaining-books {
+    grid-area: remaining-books;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.student-app-button .btn{
+    box-shadow: 5px 5px #545b62;
+    background-color: #ff5b5b !important;
+    border-color: #ff5b5b !important;
+    width: 270px;
+    height: 140px;
+}
+
+.student-app-button .btn:hover{
+    background-color: #d03f40 !important;
+    border-color:#bf0808 !important;
+    border:1px solid #bf0808 !important;
+}
+
+.student-app-button a.btn{
+    color: black !important;
+    font-size: 20px !important;
+    display: flex;
+    justify-content: center;
+}
+
+.student-app-button a.btn:hover{
+    color: black !important;
+}
+
+.student-app-button .button-text{
+}
+
+.current-dilosi .title{
+    margin-top: 10px;
+}
+
+.current-dilosi .my-pin{
+    margin-top: 30px;
+    border: 1px solid black;
+    background: #e9e9e9;
+    border-radius: 10px;
+    padding: 10px;
+    width: 280px;
+}
+
+.current-subjects {
+    margin-top: 40px;
+    background: #e9e9e9;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.current-subjects .table{
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.current-subjects .table thead th {
+    border-bottom: 2px solid #aeb1b5;
+}
+
+.current-subjects .table-bordered td, .current-subjects .table-bordered th {
+    border: 1px solid #a0a3a7;
+}
+
+.current-subjects .table th{
+    text-align: center;
+}
+
+.current-subjects .table td{
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+    vertical-align: middle;
+}
+
+.current-subjects .table input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+}
+
+.secretary-app-content {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 320px;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+    display: grid;
+    grid-template-areas:
+        "edit-books my-agenta"
+        "edit-program-studies my-agenta";
+}
+
+.edit-books {
+    grid-area: edit-books;
+}
+
+.edit-program-studies{
+    grid-area: edit-program-studies;
+}
+
+.secretary-app-button .btn{
+    box-shadow: 5px 5px #545b62;
+    background-color: #86c7e8 !important;
+    border-color: #86c7e8 !important;
+    width: 270px;
+    height: 140px;
+}
+
+.secretary-app-button .btn:hover{
+    background-color: #7babc3 !important;
+    border-color:#76afcc !important;
+    border:1px solid #76afcc !important;
+}
+
+.secretary-app-button a.btn{
+    color: black !important;
+    font-size: 20px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secretary-app-button a.btn:hover{
+    color: black !important;
+}
+
+.secretary-app-button .button-text{
+
+}
+
+.my-agenta .title{
+    margin-top: 10px;
+}
+
+.my-agenta {
+    grid-area: my-agenta;
+    border: 2px solid #343940;
+    background: #86c7e8;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.my-agenta .my-reminder{
+    margin-top: 30px;
+    border: 1px solid black;
+    background: #9c9ea2;
+    border-radius: 10px;
+    padding: 10px;
+    width: 425px;
+}
+
+.my-reminder .fa.fa-exclamation {
+    font-size: 20px;
+    color: red;
+}
+
+.verify-program{
+    margin-top: 10px;
+    margin-left: 220px;
+}
+
+.verify-program .btn{
+    box-shadow: 5px 5px #8b8e90;
+    background-color: #b5b5b5 !important;
+    border-color: #b5b5b5 !important;
+    width: 195px;
+    height: 40px;
+}
+
+.verify-program .btn:hover{
+    background-color: #9c9ea2 !important;
+    border-color:#9c9ea2 !important;
+    border:1px solid #9c9ea2 !important;
+}
+
+.verify-program a.btn{
+    color: black !important;
+    font-size: 15px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verify-program a.btn:hover{
+    color: black !important;
+}
+
+.subjects-to-verify {
+    background: #9c9ea2;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.subjects-to-verify .table{
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.subjects-to-verify .table th{
+    text-align: center;
+}
+
+.subjects-to-verify .table td{
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+    vertical-align: middle;
+}
+
+.verify-subjects .btn{
+    box-shadow: 5px 5px #8b8e90;
+    background-color: #b5b5b5 !important;
+    border-color: #b5b5b5 !important;
+    width: 210px;
+    height: 40px;
+}
+
+.verify-subjects .btn:hover{
+    background-color: #9c9ea2 !important;
+    border-color:#9c9ea2 !important;
+    border:1px solid #9c9ea2 !important;
+}
+
+.verify-subjects a.btn{
+    color: black !important;
+    font-size: 15px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verify-subjects a.btn:hover{
+    color: black !important;
+}
+
+.verify-subjects{
+    margin-top: 10px;
+}
+
+.title-of-table {
+    margin-top: 40px;
+}
+
+.user-options .card a {
+    color: black;
+}
+
+.user-options .card {
+    background: none;
+    border: none;
+}
+
+.user-options .card-header {
+    width: 200px;
+    margin-bottom: -45px;
+    border-radius: 0px 0px 50px 30px;
+}
+
+.user-options .card-body {
+    height: 90px;
+    border-radius: 0px 0px 20px 0px;
+}
+
+.user-options{
+    margin-top: -10px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user-options-buttons .btn {
+    align-self: center;
+    border: 0;
+    width: 240px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-options-buttons .btn.my-ml{
+    margin-left: 20px;
+}
+
+.user-options-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+}
+
+#myEmail-edit-content-value{
+    background: none;
+    border: none;
+}
+
+#myPassword-edit-content-value{
+    background: none;
+    border: none;
+}
+
+.myPassword-edit .fa{
+    color: black;
+    position: relative;
+    top: 7px;
+    left: 3px;
+    font-size: 20px;
+}
+
+#myPhone-edit-content-value{
+    background: none;
+    border: none;
+}
+
+#myAddress-edit-content-value{
+    background: none;
+    border: none;
+}
+
+#myAddressNum-edit-content-value{
+    background: none;
+    border: none;
+}
+
+#myDimos-edit-content-value{
+    background: none;
+    border: none;
+}
+
+#myAddressTK-edit-content-value{
+    background: none;
+    border: none;
+}
+
+#user-options-icon {
+    margin-left: 10px;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+}
+
+.student-user-options.user-options {
+    box-shadow: 1px 1px 15px 1px red;
+    background: #f89b9c;
+    border-radius: 0px 0px 50px 30px;
+}
+
+.student-user-options .user-options-buttons .btn {
+    color: #212529;
+    background-color: #ff5b5b;
+    box-shadow: 5px 5px #888888;
+}
+
+.student-user-options .user-options-buttons .btn:hover{
+    background-color: #d03f40;
+    border-color:#ea7a91;
+    border:1px solid #ea7a91;
+}
+
+.secretary-user-options.user-options {
+    box-shadow: 0px 1px 20px 1px blue;
+    background: #b6dcef;
+    border-radius: 0px 0px 50px 30px;
+}
+
+.secretary-user-options .user-options-buttons .btn {
+    color: #212529;
+    background-color: #86c7e8;
+    box-shadow: 5px 5px #888888;
+}
+
+
+.secretary-user-options .user-options-buttons .btn:hover{
+    background-color: #7babc3;
+    border-color:#76afcc !important;
+    border:1px solid #76afcc !important;
+}
+
+.publisher-user-options.user-options {
+    box-shadow: 0px 1px 20px 1px green;
+    background: #58e879;
+    border-radius: 0px 0px 50px 30px;
+}
+
+.publisher-user-options .user-options-buttons .btn {
+    color: #212529;
+    background-color: #38c73b;
+    box-shadow: 5px 5px #888888;
+}
+
+
+.publisher-user-options .user-options-buttons .btn:hover{
+    background-color: #49b361;
+    border-color:#368447 !important;
+    border:1px solid #368447 !important;
+}
+
+.more-button-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.more-button-pagination .btn {
+    border: 0;
+    color: #212529;
+    box-shadow: 4px 4px #9fa1a2;
+    background-color: #343940 !important;
+    border-color: #343940 !important;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-button-pagination .btn .btn-content{
+    font-size: 22px !important;
+    color: #a8acad !important;
+}
+
+.more-button-pagination .btn .btn-content:hover{
+    color: #fffff3 !important;
+}
+
+.more-button-pagination .btn:hover .btn-content{
+    color: #fffff3 !important;
+}
+
+.more-button-pagination .btn:focus{
+    border-color: #fff !important;
+    box-shadow: none !important;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+.pagination-hidden-content{
+    display: none;
+}
+
+.my-announcement{
+    display: flex;
+    min-width: 1230px;
+    width: 1230px;
+    background-color: #ddd;
+    padding: 25px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Home Page search */
+.home-page-search {
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.home-page-search form {
+    width: 100%;
+    max-width: 790px;
+    margin-bottom: 0;
+}
+
+.home-page-search form .inner-form {
+    background: #fff;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.home-page-search form .inner-form .input-field {
+    height: 50px;
+}
+
+.home-page-search form .inner-form .input-field input {
+    height: 100%;
+    background: transparent;
+    border: 0;
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: #555;
+}
+
+.home-page-search form .inner-form .input-field input.placeholder {
+    color: #888;
+    font-size: 20px;
+}
+
+.home-page-search form .inner-form .input-field input:-moz-placeholder {
+    color: #888;
+    font-size: 20px;
+}
+
+.home-page-search form .inner-form .input-field input::-webkit-input-placeholder {
+    color: #888;
+    font-size: 20px;
+}
+
+.home-page-search form .inner-form .input-field input:hover, .home-page-search form .inner-form .input-field input:focus {
+    box-shadow: none;
+    outline: 0;
+    border-color: #fff;
+}
+
+.home-page-search form .inner-form .input-field.first-wrap {
+    width: 150px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.home-page-search form .inner-form .input-field.second-wrap {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.home-page-search form .inner-form .input-field.third-wrap {
+    width: 74px;
+}
+
+.home-page-search form .inner-form .input-field.third-wrap .btn-search {
+    height: 100%;
+    width: 100%;
+    background-color: #e9e9e9 !important;
+    border-color: #dadbdc !important;
+    width: 75px;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.home-page-search form .inner-form .input-field.third-wrap .btn-search svg {
+    color: #343940 ;
+    width: 30px;
+    margin-top: 5px;
+}
+
+.home-page-search form .inner-form .input-field.third-wrap .btn-search:hover svg {
+    color: #9698a2 ;
+}
+
+.home-page-search form .inner-form .input-field.third-wrap .btn-search:hover {
+    background: #50c058;
+}
+
+.home-page-search form .inner-form .input-field.third-wrap .btn-search:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.home-page-search .inner-form .select2-selection {
+  height: 50px !important;
+}
+
+.home-page-search .inner-form .select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page-search .inner-form .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #212529;
+    line-height: 28px;
+    white-space: pre-wrap;
+    text-align: center;
+}
+
+.home-page-search .inner-form .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: auto;
+}
+
+.home-page-search .inner-form .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-width: 10px 7px 10px 7px;
+    left: 18%;
+    top: 45%;
+    width: 10px;
+}
+
+.filter-home-page {
+    background-color: #ddd;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-top: 30px;
+}
+
+.filter-home-page .form-group.row {
+    margin-bottom: 20px;
+}
+
+.filter-home-page #myFilterApplyButton{
+    border: 0;
+    color: #212529;
+    background-color: #f8f9fa;
+    box-shadow: 5px 5px #888888;
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.filter-home-page .col-form-label{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.filter-home-page .form-control{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.student-info a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+
+.student-info #accordion .panel{
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+
+.student-info #accordion .panel-heading{
+    padding: 0;
+}
+
+.student-info #accordion .panel-title a{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #fff;
+    background: #343940;
+    border: 2px solid #9c9ea2;
+    padding: 15px 20px 15px 47px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+
+.student-info #accordion .panel-title:hover a.collapsed{
+    background: #343940;
+    color: #fff;
+}
+
+.student-info #accordion .panel-title a.collapsed{
+    background: #fff;
+    border-color: #ddd;
+    color: #888;
+}
+
+.student-info #accordion .panel-title a:before{
+    content: "\f106";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 18px;
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.student-info #accordion .panel-title a.collapsed:before{
+    content: "\f107";
+}
+
+.student-info #accordion .panel-body{
+    font-size: 16px;
+    color: #000;
+    line-height: 25px;
+    border: 2px solid #9c9ea2;
+    border-top: none;
+    padding: 14px 20px;
+    background: #ffffff;
+}
+
+.student-info {
+    margin-top: 20px;
+    margin-bottom: 600px;
+}
+
+.secretary-info a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+
+.secretary-info #accordion .panel{
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+
+.secretary-info #accordion .panel-heading{
+    padding: 0;
+}
+
+.secretary-info #accordion .panel-title a{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #fff;
+    background: #343940;
+    border: 2px solid #9c9ea2;
+    padding: 15px 20px 15px 47px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+
+.secretary-info #accordion .panel-title:hover a.collapsed{
+    background: #343940;
+    color: #fff;
+}
+
+.secretary-info #accordion .panel-title a.collapsed{
+    background: #fff;
+    border-color: #ddd;
+    color: #888;
+}
+
+.secretary-info #accordion .panel-title a:before{
+    content: "\f106";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 18px;
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.secretary-info #accordion .panel-title a.collapsed:before{
+    content: "\f107";
+}
+
+.secretary-info #accordion .panel-body{
+    font-size: 16px;
+    color: #000;
+    line-height: 25px;
+    border: 2px solid #9c9ea2;
+    border-top: none;
+    padding: 14px 20px;
+    background: #ffffff;
+}
+
+.secretary-info {
+    margin-top: 20px;
+    margin-bottom: 600px;
+}
+
+#home-page-search-select-arrow {
+    font-size: 25px;
+    position: relative;
+    right: 7px;
+}
+
+#home-page-search-select-arrow:hover{
+    color:#6c757d;
+}
+
+.home-page-search .inner-form .select2-container--default .select2-selection--single:hover {
+    background-color: #c6c6c6;
+}
+
+.dilosi-steps-breadcrumb {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.steps {
+    margin: 40px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.steps a {
+    color: white;
+    text-decoration: none;
+}
+
+.steps a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.steps em {
+    display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.steps li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left: 0;
+    width: 300px; /* 100 / number of steps */
+    height: 80px; /* total height */
+    list-style-type: none;
+    padding: 5px 5px 5px 30px; /* padding around text, last should include arrow width */
+    border-right: 3px solid white; /* width: gap between arrows, color: background of document */
+    position: relative;
+}
+
+/* remove extra padding on the first object since it doesn't have an arrow to the left */
+.steps li:first-child {
+    padding-left: 5px;
+    margin-left: 40px;
+}
+
+/* white arrow to the left to "erase" background (starting from the 2nd object) */
+.steps li:nth-child(n+2)::before {
+    position: absolute;
+    top:0;
+    left:0;
+    display: block;
+    border-left: 25px solid white; /* width: arrow width, color: background of document */
+    border-top: 40px solid transparent; /* width: half height */
+    border-bottom: 40px solid transparent; /* width: half height */
+    width: 0;
+    height: 0;
+    content: " ";
+}
+
+/* colored arrow to the right */
+.steps li::after {
+    z-index: 1; /* need to bring this above the next item */
+    position: absolute;
+    top: 0;
+    right: -25px; /* arrow width (negated) */
+    display: block;
+    border-left: 25px solid #7c8437; /* width: arrow width */
+    border-top: 40px solid transparent; /* width: half height */
+    border-bottom: 40px solid transparent; /* width: half height */
+    width:0;
+    height:0;
+    content: " ";
+}
+
+/* Setup colors (both the background and the arrow) */
+
+/* Completed */
+.steps li { background-color: #7C8437; }
+.steps li::after { border-left-color: #7c8437; }
+
+/* Current */
+.steps li.current { background-color: #7C8437; pointer-events: none; }
+.steps li.current::after { border-left-color: #7C8437; }
+
+/* Following */
+.steps li.current ~ li { background-color: #9d9999; pointer-events: none; }
+.steps li.current ~ li::after { border-left-color: #9d9999; }
+
+/* Hover for completed and current */
+.steps li:hover {background-color: #696}
+.steps li:hover::after {border-left-color: #696}
+
+
+.dilosi-step1-select-subjects {
+    background-color: #ddd;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.dilosi-step1-select-subjects .title{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.subjects-list{
+    padding-left: 190px;
+    padding-top: 20px;
+}
+
+.subjects-list li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* Customize the label (the container) */
+.label-my-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.label-my-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.label-my-checkbox .checkmark {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    height: 25px;
+    width: 25px;
+    background-color: #f8f9fa;
+}
+
+/* On mouse-over, add a grey background color */
+.label-my-checkbox:hover input ~ .checkmark {
+  background-color: #76aae2;
+}
+
+/* When the checkbox is checked, add a blue background */
+.label-my-checkbox input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.label-my-checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.label-my-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.label-my-checkbox .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 7px;
+  height: 13px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.next-step .btn{
+    width: 260px;
+    height: 70px;
+    margin-bottom: 200px;
+    float: right;
+    box-shadow: 4px 4px #9fa1a2;
+    background-color: #343940 !important;
+    border-color: #343940 !important;
+    margin-right: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-step a.btn{
+    color: #a8acad;
+    font-size: 21px;
+}
+
+.next-step .fa-angle-right{
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.next-step a.btn:hover{
+    color: #fffff3;
+}
+
+.previous-step .btn{
+    width: 260px;
+    height: 70px;
+    margin-bottom: 200px;
+    float: left;
+    box-shadow: 4px 4px #9fa1a2;
+    background-color: #343940 !important;
+    border-color: #343940 !important;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.previous-step a.btn{
+    color: #a8acad;
+    font-size: 21px;
+}
+
+.previous-step .fa-angle-left{
+    font-size: 30px;
+    padding-right: 7px;
+}
+
+.previous-step a.btn:hover{
+    color: #fffff3;
+}
+
+.dilosi-step2-select-book {
+    background-color: #ddd;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+.dilosi-step2-select-book .title{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.books-list-item{
+    width: 600px;
+    margin-top: 20px;
+    background: #f1ecec;
+    grid-template-columns:1fr 400px 1fr;
+    display: grid;
+    grid-template-areas:
+        "dilosi-book-radio-button dilosi-book-title dilosi-book-title"
+        "dilosi-book-radio-button dilosi-book-info dilosi-book-comments";
+    padding: 30px;
+    border: 1px solid #212529;
+    border-radius: 8px;
+    box-shadow: 4px 3px #999;
+    grid-row-gap: 20px;
+}
+
+.dilosi-book-title{
+    grid-area: dilosi-book-title;
+}
+
+.dilosi-book-comments{
+    grid-area: dilosi-book-comments;
+    justify-self: right;
+}
+
+/* The container */
+.dilosi-book-radio-button {
+    grid-area: dilosi-book-radio-button;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-size: 23px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    justify-self: left;
+    align-self: center;
+}
+
+/* Hide the browser's default radio button */
+.dilosi-book-radio-button input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.dilosi-book-radio-button .checkmark {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    background-color: #f8f9fa;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.dilosi-book-radio-button:hover input ~ .checkmark {
+    background-color: #76aae2;
+}
+
+/* When the radio button is checked, add a blue background */
+.dilosi-book-radio-button input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.dilosi-book-radio-button input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.dilosi-book-radio-button .checkmark:after {
+    top: 14px;
+    left: 13px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: white;
+}
+
+.dilosi-step3-select-delivery {
+    background-color: #ddd;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+.dilosi-step3-select-delivery .title{
+    font-size: 25px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.books-list-final-info{
+    width: 800px;
+    margin-top: 20px;
+    background: #f1ecec;
+    grid-template-columns: 1fr 770px 1fr;
+    display: grid;
+    grid-template-areas:
+        ". books-list-final-title ."
+        ". books-list-final-middle ."
+        ". books-list-final-hours .";
+    padding: 30px;
+    border: 1px solid #212529;
+    border-radius: 8px;
+    box-shadow: 4px 3px #999;
+    grid-row-gap: 10px;
+}
+
+.books-list-final-middle{
+    display: grid;
+    grid-area: books-list-final-middle;
+    grid-template-columns: 1fr 415px;
+}
+
+.books-list-final-title{
+    grid-area: books-list-final-title;
+    width: 700px;
+}
+
+.books-list-final-comments{
+
+}
+
+.books-list-final-delivery{
+    display: flex;
+    flex-direction: row;
+}
+
+.books-list-final-hours{
+    grid-area: books-list-final-hours;
+}
+
+.my-select-title-books-list-final-delivery {
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.my-select-books-list-final-delivery {
+    width: 240px;
+}
+
+.my-select-books-list-final-delivery .select2-container--default .select2-selection--single .select2-selection__rendered {
+    white-space: pre-wrap;
+    text-align: center;
+}
+
+.my-select-books-list-final-delivery .select2-selection {
+    height: 60px !important;
+}
+
+.my-select-books-list-final-delivery .select2-container--default .select2-selection--single {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.my-select-books-list-final-delivery .fa {
+    font-size: 25px;
+    position: relative;
+    right: 7px;
+    top: 15px;
+}
+
+.my-select-books-list-final-delivery .fa:hover{
+    color:#6c757d;
+}
+
+.my-select-books-list-final-delivery .select2-container--default .select2-selection--single:hover {
+    background-color: #c6c6c6;
+}
+
+.dilosi-step3-notifications {
+    background-color: #ddd;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.dilosi-step3-notifications .availability{
+    padding-left: 100px;
+}
+
+.dilosi-step3-notifications .poria-dilosis {
+    padding-left: 100px;
+}
+
+.dilosi-step3-notifications input[type=checkbox] {
+    margin-top: 10px;
+}
+
+.search-subject-to-edit{
+    background-color: #ddd;
+    padding: 15px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 10px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    font-size: 17px;
+}
+
+.search-subject-to-edit .btn{
+    box-shadow: 4px 4px #9fa1a2;
+    background-color: #343940 !important;
+    border-color: #343940 !important;
+}
+
+.search-subject-to-edit a.btn{
+    color: #a8acad;
+}
+
+.search-subject-to-edit a.btn:hover{
+    color: #fffff3 !important;
+}
+
+.search-subject-to-edit input{
+    border-radius: 5px;
+}
+
+.secretary-app.my-breadcrumb{
+
+}
+
+.search-button-subject {
+    padding-left: 120px;
+}
+
+.search-subject {
+    padding-left: 120px;
+}
+
+.subject-info-to-edit{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 800px;
+    margin-top: 40px;
+    background: #dddddd;
+    padding: 30px;
+    border: 1px solid #212529;
+    border-radius: 8px;
+    box-shadow: 4px 3px #999;
+    display: flex;
+    flex-direction: column;
+}
+
+.subject-info-to-edit-title{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.subject-info-to-edit-professor{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.subject-info-to-edit-line{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.subject-info-to-edit-semister{
+
+}
+
+.subject-info-to-edit-button{
+    float: right;
+}
+
+.search-subject-label-input {
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.subject-info-to-edit b{
+    padding-right: 10px;
+}
+
+.results-title {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.placeholder-secretary-edit-books{
+    margin-bottom: 500px;
+}
+
+.search-semister {
+    display: flex;
+}
+
+.search-semister .select2-container--default .select2-selection--single .select2-selection__rendered{
+    width: 100px;
+    text-align: center;
+}
+
+.search-subject {
+    display: flex;
+}
+
+.search-subject .select2-container--default .select2-selection--single .select2-selection__rendered{
+    width: 300px;
+    text-align: center;
+}
+
+.secretary-app-step2.my-breadcrumb {
+
+}
+
+.secretary-step2-subject-info{
+    background-color: #ddd;
+    padding: 15px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 600px;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+}
+
+.secretary-step2-subject-info .subject-info-to-edit-title{
+    font-size: 20px;
+}
+
+.secretary-step2-subject-info .subject-info-to-edit-professor{
+    font-size: 20px;
+}
+
+.secretary-step2-subject-info .subject-info-to-edit-semister{
+    font-size: 20px;
+}
+
+.add-book-secretary-step2 .btn{
+    box-shadow: 4px 4px #9fa1a2;
+    background-color: #343940 !important;
+    border-color: #343940 !important;
+    width: 350px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    align-items: center;
+}
+
+.add-book-secretary-step2 a.btn{
+    color: #a8acad;
+}
+
+.add-book-secretary-step2 a.btn:hover{
+    color: #fffff3 !important;
+}
+
+.add-book-secretary-step2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.editBookResult {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    margin-top: 40px;
+    background: #dddddd;
+    grid-template-columns: 250px 1fr;
+    display: grid;
+    grid-template-areas:
+        "editBookResult-image editBookResult-title"
+        "editBookResult-image editBookResult-authors"
+        "editBookResult-image editBookResult-remove";
+    padding: 30px;
+    border: 1px solid #212529;
+    border-radius: 8px;
+    box-shadow: 4px 3px #999;
+}
+
+.editBookResult-image {
+    grid-area: editBookResult-image;
+}
+
+.editBookResult-title {
+    grid-area: editBookResult-title;
+    font-size: 25px;
+}
+
+.editBookResult-authors {
+    grid-area: editBookResult-authors;
+    font-size: 18px;
+}
+
+.editBookResult-remove {
+    grid-area: editBookResult-remove;
+    justify-self: right;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.editBooks-step2-placeholder{
+    margin-bottom: 500px;
+}
+
+#removeBookModal1 .modal-footer {
+    justify-content: center;
+}
+
+#removeBookModal1 .modal-body {
+    text-align: center;
+}
+
+#removeBookModal1 .modal-footer .btn{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#removeBookModal1 .modal-footer .yes-button{
+    margin-right: 110px;
+}
+
+#removeBookModal2 .modal-footer {
+    justify-content: center;
+}
+
+#removeBookModal2 .modal-body {
+    text-align: center;
+}
+
+#removeBookModal2 .modal-footer .btn{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#removeBookModal2 .modal-footer .yes-button{
+    margin-right: 110px;
+}
+
+#removeBookModal3 .modal-footer {
+    justify-content: center;
+}
+
+#removeBookModal3 .modal-body {
+    text-align: center;
+}
+
+#removeBookModal3 .modal-footer .btn{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#removeBookModal3 .modal-footer .yes-button{
+    margin-right: 110px;
+}
+
+.mySearchPublisherOneResult {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    margin-top: 20px;
+    background: #dddddd;
+    grid-template-columns: 250px 1fr;
+    display: grid;
+    grid-template-areas:
+        "publisher-image publisher-name"
+        "publisher-image publisher-description"
+        "publisher-image publisher-description"
+        "publisher-list-books publisher-site";
+    padding: 30px;
+    border: 1px solid #212529;
+    border-radius: 8px;
+    box-shadow: 4px 3px #999;
+}
+
+.publisher-image {
+    grid-area: publisher-image;
+}
+
+.publisher-name {
+    grid-area: publisher-name;
+    font-size: 25px;
+}
+
+.publisher-description {
+    grid-area: publisher-description;
+    font-size: 18px;
+}
+
+.publisher-list-books {
+    grid-area: publisher-list-books;
+    margin-top: 25px;
+}
+
+.publisher-site {
+    grid-area: publisher-site;
+    justify-self: right;
+    margin-top: 25px;
+}
+
+.mySearchStoreOneResult {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    margin-top: 20px;
+    background: #dddddd;
+    grid-template-columns: 1fr;
+    display: grid;
+    padding: 30px;
+    border: 1px solid #212529;
+    border-radius: 8px;
+    box-shadow: 4px 3px #999;
+    grid-row-gap: 20px;
+}
+
+.store-name {
+    justify-self: center;
+    font-size: 25px;
+}
+
+.store-address {
+    display: flex;
+    font-size: 18px;
+}
+
+.store-address b{
+    padding-right: 20px;
+}
+
+
+.store-hours {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.store-phone {
+        display: flex;
+    font-size: 18px;
+}
+
+.store-phone b{
+    padding-right: 20px;
+}
+
+
+.store-map {
+    margin-top: 25px;
+    float: left;
+}
+
+.store-site {
+    float: right;
+    margin-top: 25px;
+}
+
+
+.hours-content{
+    padding-left: 30px;
+}
+
+.redirect-login{
+    margin-top: 50px;
+    background: #dddddd;
+    border: 1px solid #212529;
+    border-radius: 8px;
+    box-shadow: 4px 3px #999;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 500px;
+    padding: 50px;
+}
+
+.last-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last-actions .my-password-remember{
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.last-actions .my-label-stay-login{
+    margin-left: 0;
+    margin-top: 15px;
+}
+
+.last-actions .my-submit {
+    margin-top: 15px;
+    margin-left: 0;
+}
+
+.redirect-login-paragraph {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 19px;
+}
+
+.redirect-sign-up-paragraph {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 22px;
+    color: #b78900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redirect-sign-up-paragraph .my-signup{
+
+}
+
+.redirect-sign-up-paragraph .my-signup .btn {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-subjects-new-dilosi {
+    padding-top: 50px;
+    font-size: 20px;
+    color: #50f1e4;
+}
+
+.next-step {
+    margin-bottom: 500px;
+}
+
+.an-announcement {
+    background: #ece9e9;
+    border: 1px solid #212529;
+    border-radius: 8px;
+    box-shadow: 4px 3px #999;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 15px;
+    width: 1000px;
+}
+
+.announcement-content {
+    padding: 17px;
+}
+
+.announcement-more a {
+    float: right;
+    margin-right: 25px;
+}
+
+.my-announcement p {
+    align-self: flex-start;
+    font-size: 20px;
+    border-bottom: 3px solid #7b7b7b;
+}
+
+.dilosi-popover {
+    margin-left: -10px;
+}
